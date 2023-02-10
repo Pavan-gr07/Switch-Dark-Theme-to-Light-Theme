@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 1000vh; */
+}
+#container{
+    max-width: 550px;
+    margin:0 auto;
+    padding:0 30px;
+
+}
+h1{
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+p{
+    font-size: 18px;
+    border-spacing: 20px;
+    line-height: 30px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button input{
+    padding: 10px;
+    position: relative;
+    left:120px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    /* justify-content: center; */
+    /* align-items: center; */
+}
